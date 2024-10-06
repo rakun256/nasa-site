@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SDG Education Initiative</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header"></header>
+
+    <!-- Main Section -->
+    <main>
+      <div class="header-content">
+        <h1>Explore Sustainable Development Goals in the Classroom</h1>
+        <p>Using NASA Earth Observation Data to Teach Global Challenges</p>
+      </div>
+      <section class="sdg-section">
+        <div class="sdg-card">
+          <h2>🌡️ SDG 13: Climate Action</h2>
+          <p>Take urgent action to combat climate change and its impacts.</p>
+          <button
+            class="learn-more-btn"
+            onclick="navigateTo('sdg-13/index.html')"
+          >
+            Learn More
+          </button>
+        </div>
+        <div class="sdg-card">
+          <h2>🌳 SDG 15: Life on Land</h2>
+          <p>
+            Protect, restore and promote sustainable use of terrestrial
+            ecosystems.
+          </p>
+          <button
+            class="learn-more-btn"
+            onclick="navigateTo('sdg-15/index.html')"
+          >
+            Learn More
+          </button>
+        </div>
+        <div class="sdg-card">
+          <h2>💧 SDG 6: Clean Water and Sanitation</h2>
+          <p>
+            Ensure availability and sustainable management of water and
+            sanitation for all.
+          </p>
+          <button
+            class="learn-more-btn"
+            onclick="navigateTo('sdg-6/index.html')"
+          >
+            Learn More
+          </button>
+        </div>
+      </section>
+
+      <!-- NASA Data Section -->
+      <section class="nasa-section">
+        <h2>NASA Earth Observation Data Integration</h2>
+        <p>
+          Discover how NASA's cutting-edge technology helps us understand and
+          address global challenges.
+        </p>
+        <button
+          class="explore-btn"
+          onclick="navigateTo('nasa-data/index.html')"
+        >
+          Explore NASA Data
+        </button>
+      </section>
+
+      <!-- Student Activities Section -->
+      <section class="activities-section">
+        <h2>Student Activities</h2>
+        <p>
+          Engage in hands-on activities and projects using real-world data to
+          understand SDGs better.
+        </p>
+        <button
+          class="explore-btn"
+          onclick="navigateTo('activities/index.html')"
+        >
+          View Activities
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &copy; <span id="year"></span> SDG Education Initiative. All rights
+        reserved.
+      </p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy Policy</a>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
